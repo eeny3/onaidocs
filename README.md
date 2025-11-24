@@ -1,16 +1,20 @@
 # onaidocs
 
-A new Flutter project.
+Инструкция по запуску:
+1) склонировать себе проект
+2) flutter pub get
+3) подключить девайс либо открыть эмулятор
+4) запустить
 
-## Getting Started
+Использованные пакеты:
+1) go_router для вложенных навигаций с сохранением стейта
+2) flutter_bloc для стейт менеджмента
+3) shared_prefernces для хранилища
+4) get_it для ди
+5) flutter_inappwebview для вебвью
+6) url_launcher для корректных переходов по всяким схемам в вебвью, если таковые будут
+7) intl для форматирования дат
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Краткое описание структуры:
+1) app/ - всякие конфигурации(раутер, тема, ди) 
+2) features/ - фичи модули(data, domain, presentation) 
